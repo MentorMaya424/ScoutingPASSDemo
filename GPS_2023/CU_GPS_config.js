@@ -1,8 +1,9 @@
 var config_data = `
 {
-    "title": "Great Pit Scout 2023",
-    "page_title": "Charged Up",
-    "pitConfig": "false",
+  "dataFormat": "kvs",
+  "title": "Scouting PASS 2023",
+  "page_title": "Charged Up",
+  "checkboxAs": "10",
     "prematch": [
         {
             "name": "Team Number",
