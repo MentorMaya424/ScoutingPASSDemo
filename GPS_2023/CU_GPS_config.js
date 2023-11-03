@@ -3,7 +3,7 @@ var config_data = `
   "title": "Great Pit Scout 2023",
   "page_title": "Charged Up",
   "pitConfig": "true",
-  "Dimensions & Drivetrain": [
+  "prematch": [
     { "name": "Team Number",
       "code": "t",
       "type": "number"
@@ -48,7 +48,7 @@ var config_data = `
       "maxSize": 50
     },
   ],
-  "Mechanisms": [
+  "auton": [
     { "name": "Intake 1",
       "code": "In1",
       "type": "radio",
@@ -89,7 +89,7 @@ var config_data = `
       "type": "bool"
       },
   ],
-  "Scoring Mechanism Degrees of Freedom": [
+  "teleop": [
     { "name": "Degree of Freedom 1",
       "code": "dof1",
       "type": "radio",
