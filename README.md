@@ -4,7 +4,7 @@
 
 #### A scouting system for FIRST FRC competitions developed by [PWNAGE - Team #2451](https://pwnagerobotics.org).
 
-<a href="https://PWNAGERobotics.github.io/ScoutingPASS">Live Demo</a> . <a href="https://PWNAGERobotics.github.io/ScoutingPASS/pit.html">Pit Scouting</a> . <a href="#getting-started">Getting Started</a> . <a href="#faq">FAQ</a>
+<a href="https://mentormaya424.github.io/ScoutingPASSDemo/">Live Demo</a> . <a href="https://mentormaya424.github.io/ScoutingPASSDemo/pit.html">Pit Scouting</a> . <a href="#getting-started">Getting Started</a> . <a href="#faq">FAQ</a>
 
 ![Stars](https://img.shields.io/github/stars/PWNAGERobotics/ScoutingPASS?style=plastic) ![Forks](https://img.shields.io/github/forks/PWNAGERobotics/ScoutingPASS?style=plastic) ![watchers](https://img.shields.io/github/watchers/PWNAGERobotics/ScoutingPASS?style=plastic)
 <h1></h1>
@@ -48,7 +48,7 @@
 <div id="live-demo"></div>
 
 ## Live Demo
-This repository is hosted on GitHub Pages.  You can view a live version of it here: https://PWNAGERobotics.github.io/ScoutingPASS.  (You can host your ScoutingPASS application on GitHub Pages as well.)
+This repository is hosted on GitHub Pages.  You can view a live version of it here: https://mentormaya424.github.io/ScoutingPASSDemo/.  (You can host your ScoutingPASS application on GitHub Pages as well.)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 <div id="description"></div>
