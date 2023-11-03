@@ -165,4 +165,9 @@ var config_data = `
         "n": "Other"
       },
       "defaultValue": "n"  
+  "endgame": [
+
+  ],
+  "postmatch": [
+  ]
   ],
