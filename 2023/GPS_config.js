@@ -1,15 +1,35 @@
 var config_data = `
 {
-  "dataFormat": "kvs",
-  "title": "Scouting PASS 2023",
-  "page_title": "Charged Up",
-  "checkboxAs": "10",
+    "dataFormat": "kvs",
+    "title": "Scouting PASS 2023",
+    "page_title": "Charged Up",
+    "checkboxAs": "10",
     "prematch": [
         {
-            "name": "Team Number",
-            "code": "t",
-            "type": "number"
+            "name": "Scouter Initials",
+            "code": "s",
+            "type": "scouter",
+            "size": 5,
+            "maxSize": 5,
+            "required": "true"
         },
+        {
+            "name": "Event",
+            "code": "e",
+            "type": "event",
+            "defaultValue": "2023tnkn",
+            "required": "true",
+            "disabled": "true"
+        },
+        {
+            "name": "Team #",
+            "code": "t",
+            "type": "team",
+            "min": 1,
+            "max": 99999
+        }
+    ],
+    "auton": [
         {
             "name": "Width",
             "code": "wid",
@@ -35,6 +55,12 @@ var config_data = `
             "defaultValue": "0"
         },
         {
+            "name": "Highest Fulcrum",
+            "code": "hf",
+            "type": "number",
+            "defaultValue": "0"
+        },
+        {
             "name": "Drivetrain",
             "code": "drv",
             "type": "radio",
@@ -56,7 +82,7 @@ var config_data = `
             "maxSize": 50
         }
     ],
-    "auton": [
+    "teleop": [
         {
             "name": "Intake 1",
             "code": "In1",
@@ -105,7 +131,7 @@ var config_data = `
             "type": "bool"
         }
     ],
-    "teleop": [
+    "endgame": [
         {
             "name": "Degree of Freedom 1",
             "code": "dof1",
@@ -192,6 +218,13 @@ var config_data = `
             "defaultValue": "n"
         }
     ],
-    "endgame": [],
-    "postmatch": []
-}
+    "postmatch": [
+        {
+            "name": "Comments",
+            "code": "co",
+            "type": "text",
+            "size": 15,
+            "maxSize": 55
+        }
+    ]
+}`;
