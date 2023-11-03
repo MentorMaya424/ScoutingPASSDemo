@@ -13,6 +13,11 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
+    { "name": "Height",
+      "code": "hei",
+      "type": "number",
+      "defaultValue": "0"
+    },
     { "name": "Weight",
       "code": "wei",
       "type": "number",
